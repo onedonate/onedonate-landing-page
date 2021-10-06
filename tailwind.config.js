@@ -12,6 +12,9 @@ module.exports = {
         "2xl": "1124px",
       },
     },
+    fontFamily: {
+      Epilogue: ["Epilogue", "sans-serif"],
+    },
   },
   variants: {
     extend: {},

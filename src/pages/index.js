@@ -3,7 +3,7 @@ import LandingPage from "../components/LandingPage";
 
 const IndexPage = () => {
   return (
-    <main>
+    <main class="font-Epilogue">
       <title>Onedonate - A centralized platform for giving</title>
       <h1>Welcome to Onedonate!</h1>
       <LandingPage></LandingPage>
