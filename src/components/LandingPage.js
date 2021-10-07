@@ -19,6 +19,19 @@ const LandingPage = () => {
           <p class="text-accent-gray text-lg text-center lg:text-left mb-6">
             Sign up for updates today to get early access!
           </p>
+          <div class="w-full flex flex-row gap-4">
+            <input
+              class="px-4 py-3 focus:border-transparent focus:ring-2 focus:ring-brand-purple rounded-md border-gray-400 shadow-md w-full"
+              type="text"
+              placeholder="Enter your email address"
+            ></input>
+            <button
+              type="button"
+              class="hover:bg-gray-700 shadow-md py-3 px-6 rounded-md transition duration-150 bg-gray-600 text-white"
+            >
+              Sign up
+            </button>
+          </div>
         </div>
 
         <div class="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0">
