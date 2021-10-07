@@ -14,9 +14,9 @@ module.exports = {
       center: true,
       padding: "1rem",
       screens: {
-        lg: "1280px",
-        xl: "1280px",
-        "2xl": "1280px",
+        lg: "1600px",
+        xl: "1600px",
+        "2xl": "1600px",
       },
     },
     fontFamily: {
@@ -26,5 +26,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/forms")],
 };
