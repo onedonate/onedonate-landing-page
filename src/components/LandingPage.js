@@ -19,7 +19,7 @@ const LandingPage = () => {
           <p class="text-accent-gray text-lg text-center lg:text-left mb-6">
             Sign up for updates today to get early access!
           </p>
-          <div class="w-full flex flex-row gap-4">
+          <div class="w-full flex flex-row gap-4 flex-wrap lg:flex-nowrap">
             <input
               class="px-4 py-3 focus:border-transparent focus:ring-2 focus:ring-brand-purple rounded-md border-gray-400 shadow-md w-full"
               type="text"
