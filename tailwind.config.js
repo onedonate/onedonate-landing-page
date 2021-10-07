@@ -14,9 +14,9 @@ module.exports = {
       center: true,
       padding: "1rem",
       screens: {
-        lg: "1224px",
-        xl: "1224px",
-        "2xl": "1224px",
+        lg: "1280px",
+        xl: "1280px",
+        "2xl": "1280px",
       },
     },
     fontFamily: {
