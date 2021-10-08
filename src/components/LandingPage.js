@@ -1,5 +1,6 @@
 import React from "react";
 import Graphic from "./Graphic";
+import Description from "./Description";
 import graphic from "../images/landing-graphic.svg";
 
 const LandingPage = () => {
@@ -10,16 +11,13 @@ const LandingPage = () => {
           <h2 className="font-bold text-brand-purple text-5xl md:text-4 lg:text-7xl text-center lg:text-left mb-6">
             Donating made simple
           </h2>
-          <p className="text-accent-gray text-lg text-center lg:text-left mb-6">
-            A centralized donation platform that empowers you to support{" "}
-            <span className="underline italic">all</span> the causes that you
-            care about. We aim to support over 86000 charities so you can
-            research organizations, build your donation pie, and contribute to a
-            better world all in one place.
-          </p>
-          <p className="text-accent-gray text-lg text-center lg:text-left mb-6">
-            Sign up for updates today to get early access!
-          </p>
+          <Description
+            text="A centralized donation platform that empowers you to support all the
+            causes that you care about. We aim to support over 86000 charities
+            so you can research organizations, build your donation pie, and
+            contribute to a better world all in one place."
+          ></Description>
+          <Description text="Sign up for updates today to get early access!"></Description>
           <div className="w-full flex flex-row gap-4 flex-wrap lg:flex-nowrap">
             <input
               className="px-4 py-3 focus:border-transparent focus:ring-2 focus:ring-brand-purple rounded-md border-gray-400 shadow-md w-full"
