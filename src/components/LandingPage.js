@@ -2,6 +2,7 @@ import React from "react";
 import Graphic from "./Graphic";
 import Description from "./Description";
 import Button from "./Button";
+import TextInput from "./TextInput";
 import graphic from "../images/landing-graphic.svg";
 
 const LandingPage = () => {
@@ -20,11 +21,10 @@ const LandingPage = () => {
           ></Description>
           <Description text="Sign up for updates today to get early access!"></Description>
           <div className="w-full flex flex-row gap-4 flex-wrap lg:flex-nowrap">
-            <input
-              className="px-4 py-3 focus:border-transparent focus:ring-2 focus:ring-brand-purple rounded-md border-gray-400 shadow-md w-full"
-              type="text"
+            <TextInput
               placeholder="Enter your email address"
-            ></input>
+              type="email"
+            ></TextInput>
             <Button text="Sign up"></Button>
           </div>
         </div>
