@@ -1,6 +1,7 @@
 import React from "react";
 import Graphic from "./Graphic";
 import Description from "./Description";
+import Button from "./Button";
 import graphic from "../images/landing-graphic.svg";
 
 const LandingPage = () => {
@@ -24,12 +25,7 @@ const LandingPage = () => {
               type="text"
               placeholder="Enter your email address"
             ></input>
-            <button
-              type="button"
-              className="hover:bg-gray-700 shadow-md py-3 px-6 rounded-md transition duration-150 bg-gray-600 text-white"
-            >
-              Sign up
-            </button>
+            <Button text="Sign up"></Button>
           </div>
         </div>
 
