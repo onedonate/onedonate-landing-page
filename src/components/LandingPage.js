@@ -8,7 +8,7 @@ import graphic from "../images/landing-graphic.svg";
 const LandingPage = () => {
   return (
     <section className="relative">
-      <div className="container flex flex-col-reverse lg:flex-row items-center">
+      <div className="container flex flex-col-reverse lg:flex-row items-center max-w-7xl">
         <div className="flex flex-1 flex-col items-center lg:items-start">
           <h2 className="font-bold text-brand-blue text-5xl md:text-4 lg:text-7xl text-center lg:text-left mb-6">
             Donating made simple
