@@ -10,7 +10,7 @@ const LandingPage = () => {
     <section className="relative">
       <div className="container flex flex-col-reverse lg:flex-row items-center">
         <div className="flex flex-1 flex-col items-center lg:items-start">
-          <h2 className="font-bold text-brand-purple text-5xl md:text-4 lg:text-7xl text-center lg:text-left mb-6">
+          <h2 className="font-bold text-brand-blue text-5xl md:text-4 lg:text-7xl text-center lg:text-left mb-6">
             Donating made simple
           </h2>
           <Description
