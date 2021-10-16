@@ -6,7 +6,7 @@ import icon3 from "../images/features-icon3.svg";
 
 const Features = () => {
   return (
-    <section className="bg-light-accent-gray py-20 mt-20 mx-20 rounded-3xl">
+    <section className="bg-light-accent-gray py-20 mt-20 mx-4 rounded-3xl sm:mx-20">
       <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
         <h2 className="text-base font-semibold tracking-wider text-dark-blue uppercase">
           FEATURES
