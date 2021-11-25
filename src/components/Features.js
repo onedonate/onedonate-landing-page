@@ -25,12 +25,12 @@ const Features = () => {
         <Card
           icon={icon2}
           title="Donation Options"
-          description="Provide options to donate once, recurring, and even to multiple charaties through a single donation."
+          description="Provide options to donate once, recurring, and even to multiple charities through a single donation."
         ></Card>
         <Card
           icon={icon3}
           title="Stress-free Tax Return"
-          description="Never lose another charitable tax receipt again. Choose to view individual tax receipts or a summary tax receipt at the end of each year to easily recieve a donation tax credit."
+          description="Never lose another donation tax receipt again. Choose to view individual tax receipts or a summary tax receipt at the end of each year to easily recieve a donation tax credit."
         ></Card>
       </div>
     </section>
