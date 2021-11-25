@@ -1,8 +1,7 @@
 import React from "react";
 import Graphic from "./Graphic";
 import Description from "./Description";
-import Button from "./Button";
-import TextInput from "./TextInput";
+import MailchimpForm from "./MailchimpForm";
 import graphic from "../images/landing-graphic.svg";
 
 const LandingPage = () => {
@@ -20,13 +19,10 @@ const LandingPage = () => {
             contribute to a better world all in one place."
           ></Description>
           <Description text="Sign up for updates today to get early access!"></Description>
-          <div className="w-full flex flex-row gap-4 flex-wrap lg:flex-nowrap">
-            <TextInput
-              placeholder="Enter your email address"
-              type="email"
-            ></TextInput>
-            <Button text="Sign up"></Button>
-          </div>
+          <MailchimpForm
+            placeholder="Enter your email address"
+            type="email"
+          ></MailchimpForm>
         </div>
 
         <Graphic graphic={graphic}></Graphic>
