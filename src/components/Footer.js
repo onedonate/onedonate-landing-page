@@ -7,7 +7,6 @@ const Footer = () => {
         <div className="flex flex-col items-left text-left text-large p-4">
           <div className="font-bold text-lg mb-2">Onedonate</div>
           <ul>A: Canada</ul>
-          <ul>T: 403-671-7564</ul>
           <ul>E: onedonate@outlook.com</ul>
         </div>
         <div className="flex flex-col items-left text-left text-large p-4">
