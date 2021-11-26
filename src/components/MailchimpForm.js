@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import Button from "./Button";
 import addToMailchimp from "gatsby-plugin-mailchimp";
 
-const MailchimpForm = ({ placeholder, type }) => {
+const MailchimpForm = ({ type }) => {
   const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+  const [buttonText, setButtonText] = useState("Subscribe");
+  const [disabled, setDisabled] = useState(false);
 
   const handleInputChange = (event) => {
     const target = event.target;
@@ -15,19 +16,28 @@ const MailchimpForm = ({ placeholder, type }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const result = await addToMailchimp(email);
-    setMessage(result.msg);
+
+    if (result.result === "success") {
+      setButtonText("Subscribed");
+      setDisabled(true);
+    }
   };
 
   return (
-    <div className="w-full flex flex-row gap-4 flex-wrap lg:flex-nowrap">
+    <div className="w-full flex flex-row gap-2 flex-wrap lg:flex-nowrap">
       <input
-        className="px-4 py-3 focus:border-transparent focus:ring-2 focus:ring-brand-blue rounded-md border-gray-400 shadow-md w-full"
+        className="disabled:text-gray-400 px-4 py-3 focus:border-transparent focus:ring-2 focus:ring-brand-blue rounded-md border-gray-400 shadow-md w-full"
         type={type}
-        placeholder={placeholder}
+        placeholder="Enter your email address"
         value={email}
         onChange={handleInputChange}
+        disabled={disabled}
       ></input>
-      <Button text="Sign up" onClick={handleSubmit}></Button>
+      <Button
+        text={buttonText}
+        onClick={handleSubmit}
+        disable={disabled}
+      ></Button>
     </div>
   );
 };

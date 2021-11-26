@@ -18,11 +18,8 @@ const LandingPage = () => {
             so you can research organizations, build your donation pie, and
             contribute to a better world all in one place."
           ></Description>
-          <Description text="Sign up for updates today to get early access!"></Description>
-          <MailchimpForm
-            placeholder="Enter your email address"
-            type="email"
-          ></MailchimpForm>
+          <Description text="Sign up for updates today to get early access! (You can unsubscribe at any time)"></Description>
+          <MailchimpForm type="email"></MailchimpForm>
         </div>
 
         <Graphic graphic={graphic}></Graphic>
