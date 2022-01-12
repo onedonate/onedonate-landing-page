@@ -26,7 +26,7 @@ module.exports = {
       Lato: ["Lato", "sans-serif"],
     },
     lineHeight: {
-      "extra-loose": "4rem",
+      "extra-loose": "3rem",
     },
   },
   variants: {
