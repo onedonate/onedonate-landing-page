@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 
 const IndexPage = () => {
   return (
-    <main className="font-Epilogue">
+    <main className="font-Lato">
       <Helmet>
         <title>Onedonate - A centralized platform for giving</title>
       </Helmet>

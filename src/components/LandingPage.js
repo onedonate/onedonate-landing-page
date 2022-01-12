@@ -8,17 +8,17 @@ const LandingPage = () => {
   return (
     <section className="relative">
       <div className="container flex flex-col-reverse lg:flex-row items-center max-w-7xl">
-        <div className="flex flex-1 flex-col items-center lg:items-start">
-          <h2 className="font-bold text-dark-blue text-5xl md:text-4 lg:text-7xl text-center lg:text-left mb-6">
-            Donating made simple
+        <div className="flex flex-1 flex-col items-left lg:items-start">
+          <h2 className="font-Montserrat font-extrabold text-dark-gray text-5xl text-left leading-extra-loose md:text-4 lg:text-7xl  lg:mb-6">
+            Donating <span className="text-brand-green">made simple</span>
           </h2>
+
+          <Description text="Your chance to join Onedonate."></Description>
           <Description
-            text="A centralized donation platform that empowers you to support all the
-            causes that you care about. We aim to support over 86000 charities
-            so you can research organizations, build your donation pie, and
-            contribute to a better world all in one place."
+            text="Start donating with as little as $1 or 
+donate your spare change from everyday purchases to thousands of charities. Join the community and start making an impact today."
           ></Description>
-          <Description text="Sign up for updates today to get early access! (You can unsubscribe at any time)"></Description>
+          <Description text="Join hundreds of other Canadians on the waitlist."></Description>
           <MailchimpForm type="email"></MailchimpForm>
         </div>
 

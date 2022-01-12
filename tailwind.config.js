@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "brand-blue": "#85A4B3",
-        "dark-blue": "#1F3F68",
+        "dark-gray": "#4F4F4F",
+        "brand-green": "#85A4B3",
         "accent-gray": "#6B718C",
         "back-blue": "#316099",
         "light-accent-gray": "#F2F2F4",
@@ -22,6 +22,11 @@ module.exports = {
     },
     fontFamily: {
       Epilogue: ["Epilogue", "sans-serif"],
+      Montserrat: ["Montserrat", "sans-serif"],
+      Lato: ["Lato", "sans-serif"],
+    },
+    lineHeight: {
+      "extra-loose": "4rem",
     },
   },
   variants: {
