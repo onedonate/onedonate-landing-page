@@ -1,4 +1,5 @@
 import React from "react";
+import SocialLink from "./SocialLink";
 import logo from "../images/Logo_optimized.svg";
 import linkedin from "../images/linkedin-icon.svg";
 import twitter from "../images/twitter-icon.svg";
@@ -15,42 +16,26 @@ const Footer = () => {
           alt="Onedonate logo"
         ></img>
         <div className="flex flex-row px-4 py-4">
-          <a href="https://linkedin.com" target="_blank" rel="noreferrer">
-            <img
-              className="h-5 w-auto px-2.5"
-              src={linkedin}
-              alt="LinkedIn Link"
-            ></img>
-          </a>
-          <a
-            href="https://twitter.com/one_donate"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              className="h-5 w-auto px-2.5"
-              src={twitter}
-              alt="Twitter Link"
-            ></img>
-          </a>
-          <a
-            href="https://instagram.com/onedonate"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              className="h-5 w-auto px-2.5"
-              src={ig}
-              alt="Instagram Link"
-            ></img>
-          </a>
-          <a href="https://tiktok.com" target="_blank" rel="noreferrer">
-            <img
-              className="h-5 w-auto px-2.5"
-              src={tiktok}
-              alt="TikTok Link"
-            ></img>
-          </a>
+          <SocialLink
+            link="https://linkedin.com"
+            icon={linkedin}
+            alt="LinkedIn Link"
+          />
+          <SocialLink
+            link="https://twitter.com/one_donate"
+            icon={twitter}
+            alt="Twitter Link"
+          />
+          <SocialLink
+            link="https://instagram.com/onedonate"
+            icon={ig}
+            alt="Instagram Link"
+          />
+          <SocialLink
+            link="https://tiktok.com"
+            icon={tiktok}
+            alt="TikTok Link"
+          />
         </div>
         <div className="text-light-text-gray mt-4">
           Copyright 2021 All Rights Reserved - Onedonate
