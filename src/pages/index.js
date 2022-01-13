@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import LandingPage from "../components/LandingPage";
 import Features from "../components/Features";
 import Footer from "../components/Footer";
+import AutomateSection from "../components/AutomateSection";
 
 const IndexPage = () => {
   return (
@@ -13,7 +14,7 @@ const IndexPage = () => {
       </Helmet>
       <Header></Header>
       <LandingPage></LandingPage>
-      <Features></Features>
+      <AutomateSection />
       <Footer></Footer>
     </main>
   );
