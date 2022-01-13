@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../images/onedonate.svg";
+import logo from "../images/Logo_optimized.svg";
 import linkedin from "../images/linkedin-icon.svg";
 import twitter from "../images/twitter-icon.svg";
 import ig from "../images/ig-icon.svg";
