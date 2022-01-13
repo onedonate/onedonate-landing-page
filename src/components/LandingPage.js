@@ -2,7 +2,7 @@ import React from "react";
 import Graphic from "./Graphic";
 import Description from "./Description";
 import MailchimpForm from "./MailchimpForm";
-import graphic from "../images/landing-graphic.svg";
+import graphic from "../images/landing-graphic.webp";
 
 const LandingPage = () => {
   return (
