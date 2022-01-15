@@ -8,7 +8,7 @@ import tiktok from "../images/tiktok-icon.svg";
 
 const Footer = () => {
   return (
-    <section className="bg-white border-t-2 border-light-gray pt-10 pb-2 mt-20">
+    <section className="bg-white border-t-2 border-light-gray pt-10 pb-2">
       <div className="flex flex-col items-center py-1">
         <img
           className="h-8 w-auto sm:h-10"
