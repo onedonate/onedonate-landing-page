@@ -11,7 +11,7 @@ const Step = ({ number, title, info, arrow }) => {
         <h3 className="text-brand-green font-bold uppercase text-lg">
           Step {number}
         </h3>
-        <h2 className="font-Montserrat font-extrabold text-dark-gray text-3xl leading-extra-loose md:text-4 lg:text-5xl ">
+        <h2 className="font-Montserrat font-bold text-dark-gray text-3xl leading-extra-loose md:text-4 lg:text-5xl ">
           {title}
         </h2>
       </div>
