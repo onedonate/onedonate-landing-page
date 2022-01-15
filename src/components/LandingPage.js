@@ -25,7 +25,7 @@ donate your spare change from everyday purchases to thousands of charities. Join
           <MailchimpForm type="email"></MailchimpForm>
         </div>
 
-        <Graphic graphic={graphic}></Graphic>
+        <Graphic graphic={graphic} width="72"></Graphic>
       </div>
     </section>
   );

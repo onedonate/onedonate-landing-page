@@ -1,6 +1,6 @@
 import React from "react";
 import Graphic from "./Graphic";
-import graphic from "../images/automate-graphic.jpg";
+import graphic from "../images/automate-graphic.webp";
 import Description from "./Description";
 
 const AutomateSection = () => {
@@ -15,7 +15,7 @@ const AutomateSection = () => {
           <Description text="Link your bank account to the app, use your credit or debit card to make everyday purchases, and your spare change is magically donated to a cause you want to support!"></Description>
         </div>
 
-        <Graphic graphic={graphic}></Graphic>
+        <Graphic graphic={graphic} width="128"></Graphic>
       </div>
     </section>
   );

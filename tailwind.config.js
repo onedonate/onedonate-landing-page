@@ -10,6 +10,9 @@ module.exports = {
         "light-text-gray": "#9B9B9B",
         "light-accent-gray": "#F2F2F4",
       },
+      width: {
+        128: "32rem",
+      },
     },
     container: {
       center: true,
