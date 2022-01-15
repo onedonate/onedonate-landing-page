@@ -5,6 +5,7 @@ import LandingPage from "../components/LandingPage";
 import Features from "../components/Features";
 import Footer from "../components/Footer";
 import AutomateSection from "../components/AutomateSection";
+import PieSection from "../components/PieSection";
 
 const IndexPage = () => {
   return (
@@ -15,6 +16,7 @@ const IndexPage = () => {
       <Header></Header>
       <LandingPage></LandingPage>
       <AutomateSection />
+      <PieSection />
       <Footer></Footer>
     </main>
   );
