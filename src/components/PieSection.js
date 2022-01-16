@@ -5,7 +5,7 @@ const PieSection = () => {
   return (
     <section className="relative block bg-gradient-to-t from-light-accent-gray to-transparent pb-24 md:pb-32">
       <div className="w-9/12 mx-auto">
-        <h2 className="font-Montserrat font-extrabold text-dark-gray text-4xl text-center leading-extra-loose mb-2 md:text-4 lg:text-7xl  lg:mb-24">
+        <h2 className="font-Montserrat font-extrabold text-dark-gray text-4xl text-center leading-extra-loose mb-2 md:text-4 lg:text-5xl  lg:mb-24">
           One donation, multiple impact
         </h2>
         <Step

@@ -6,9 +6,9 @@ import Description from "./Description";
 const AutomateSection = () => {
   return (
     <section className="relative">
-      <div className="container flex flex-col lg:flex-row-reverse items-start mb-12 max-w-7xl lg:my-32">
+      <div className="container flex flex-col lg:flex-row-reverse items-center mb-12 max-w-7xl lg:my-32">
         <div className="flex flex-1 flex-col items-left lg:items-start">
-          <h2 className="font-Montserrat font-extrabold text-dark-gray text-4xl text-left leading-extra-loose mb-2 md:text-4 lg:text-7xl  lg:mb-6">
+          <h2 className="font-Montserrat font-extrabold text-dark-gray text-4xl text-left leading-extra-loose mb-2 md:text-4 lg:text-5xl  lg:mb-6">
             Automate your donating
           </h2>
 

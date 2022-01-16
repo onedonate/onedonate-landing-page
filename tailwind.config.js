@@ -11,7 +11,7 @@ module.exports = {
         "light-accent-gray": "#F2F2F4",
       },
       width: {
-        128: "32rem",
+        128: "28rem",
       },
     },
     container: {
