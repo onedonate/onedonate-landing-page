@@ -38,7 +38,7 @@ const Footer = () => {
           />
         </div>
         <div className="text-light-text-gray mt-4">
-          Copyright 2021 All Rights Reserved - Onedonate
+          Copyright 2022 All Rights Reserved - Onedonate
         </div>
       </div>
     </section>
