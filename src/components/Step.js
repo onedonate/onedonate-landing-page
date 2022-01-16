@@ -3,8 +3,6 @@ import Description from "./Description";
 import Arrow from "../images/arrow.svg";
 
 const Step = ({ number, title, info, arrow }) => {
-  const showing = arrow;
-
   return (
     <div className="grid grid-cols-1 gap-2 mt-24 md:grid-cols-2 md:gap-12">
       <div className="text-left md:justify-end md:ml-auto md:w-4/6 md:text-right">
@@ -18,7 +16,7 @@ const Step = ({ number, title, info, arrow }) => {
       <div className="text-left md:w-4/6 md:mt-8">
         <Description text={info} />
       </div>
-      {showing ? (
+      {arrow ? (
         <div className="flex flex-wrap justify-start md:justify-end">
           <img src={Arrow} alt="Arrow"></img>
         </div>
