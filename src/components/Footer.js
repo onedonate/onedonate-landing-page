@@ -17,7 +17,7 @@ const Footer = () => {
         ></img>
         <div className="flex flex-row px-4 py-4">
           <SocialLink
-            link="https://linkedin.com"
+            link="https://linkedin.com/company/onedonate"
             icon={linkedin}
             alt="LinkedIn Link"
           />
@@ -32,7 +32,7 @@ const Footer = () => {
             alt="Instagram Link"
           />
           <SocialLink
-            link="https://tiktok.com"
+            link="https://www.tiktok.com/@onedonate_"
             icon={tiktok}
             alt="TikTok Link"
           />
