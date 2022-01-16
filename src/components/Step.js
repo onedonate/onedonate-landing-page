@@ -7,7 +7,7 @@ const Step = ({ number, title, info, arrow }) => {
 
   return (
     <div className="grid grid-cols-1 gap-2 mt-24 md:grid-cols-2 md:gap-12">
-      <div className="flex flex-wrap justify-start text-left md:justify-end md:ml-auto md:w-4/6 md:text-right">
+      <div className="text-left md:justify-end md:ml-auto md:w-4/6 md:text-right">
         <h3 className="text-brand-green font-bold uppercase text-lg">
           Step {number}
         </h3>
