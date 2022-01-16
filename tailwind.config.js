@@ -4,11 +4,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "brand-blue": "#85A4B3",
-        "dark-blue": "#1F3F68",
-        "accent-gray": "#6B718C",
-        "back-blue": "#316099",
+        "dark-gray": "#4F4F4F",
+        "brand-green": "#85A4B3",
+        "light-gray": "#DFDFDF",
+        "light-text-gray": "#9B9B9B",
         "light-accent-gray": "#F2F2F4",
+      },
+      width: {
+        128: "28rem",
       },
     },
     container: {
@@ -22,6 +25,11 @@ module.exports = {
     },
     fontFamily: {
       Epilogue: ["Epilogue", "sans-serif"],
+      Montserrat: ["Montserrat", "sans-serif"],
+      Lato: ["Lato", "sans-serif"],
+    },
+    lineHeight: {
+      "extra-loose": "3rem",
     },
   },
   variants: {
