@@ -25,7 +25,11 @@ donate your spare change from everyday purchases to thousands of charities. Join
           <MailchimpForm type="email"></MailchimpForm>
         </div>
 
-        <Graphic graphic={graphic} width="72"></Graphic>
+        <Graphic
+          graphic={graphic}
+          width="72"
+          alt="Phone with Onedonate Home screen"
+        ></Graphic>
       </div>
     </section>
   );
