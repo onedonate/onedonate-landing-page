@@ -1,6 +1,6 @@
 import React from "react";
 import SocialLink from "./SocialLink";
-import logo from "../images/Logo_optimized.svg";
+import logo from "../images/Logo.svg";
 import linkedin from "../images/linkedin-icon.svg";
 import twitter from "../images/twitter-icon.svg";
 import ig from "../images/ig-icon.svg";
@@ -11,7 +11,7 @@ const Footer = () => {
     <section className="bg-white border-t-2 border-light-gray pt-10 pb-2">
       <div className="flex flex-col items-center py-1">
         <img
-          className="h-8 w-auto sm:h-10"
+          className="h-6 w-auto md:h-8"
           src={logo}
           alt="Onedonate logo"
         ></img>
