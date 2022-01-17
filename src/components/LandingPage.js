@@ -9,7 +9,7 @@ const LandingPage = () => {
     <section className="relative">
       <div className="container flex flex-col lg:flex-row items-center max-w-7xl mt-12">
         <div className="flex flex-1 flex-col items-left lg:items-start">
-          <div className="bg-brand-green font-bold text-white text-sm px-3 py-1 tracking-wide rounded-full mb-2 w-max">
+          <div className="bg-brand-green font-bold text-white text-sm px-3 py-1 tracking-wide rounded-full mb-2 w-max truncate">
             COMING SOON
           </div>
           <h2 className="font-Montserrat font-extrabold text-dark-gray text-4xl text-left leading-extra-loose mb-2 md:text-4 lg:text-7xl  lg:mb-6">
