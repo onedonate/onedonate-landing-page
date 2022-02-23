@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 import AutomateSection from "../components/AutomateSection";
 import PieSection from "../components/PieSection";
 import FooterForm from "../components/FooterForm";
+import FAQ from "../components/FAQ";
 
 const IndexPage = () => {
   return (
@@ -17,6 +18,7 @@ const IndexPage = () => {
       <LandingPage></LandingPage>
       <AutomateSection />
       <PieSection />
+      <FAQ />
       <FooterForm />
       <Footer></Footer>
     </main>
