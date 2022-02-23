@@ -1,13 +1,15 @@
 import React from "react";
 import Graphic from "./Graphic";
 import graphic from "../images/automate-graphic.webp";
+import divider from "../images/divider.png";
 import Description from "./Description";
 import { motion } from "framer-motion";
 
 const AutomateSection = () => {
   return (
     <section className="relative">
-      <div className="container flex flex-col lg:flex-row-reverse items-center mb-12 max-w-7xl lg:my-32">
+      <img className="" src={divider} alt="Divider"></img>
+      <div className="container flex flex-col lg:flex-row-reverse items-center mb-12 max-w-7xl lg:my-12">
         <motion.div
           initial="hidden"
           whileInView="visible"

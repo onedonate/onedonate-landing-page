@@ -1,10 +1,12 @@
 import React from "react";
 import Step from "./Step";
 import { motion } from "framer-motion";
+import divider from "../images/divider2.png";
 
 const PieSection = () => {
   return (
     <section className="relative block bg-gradient-to-t from-light-accent-gray to-transparent pb-24 md:pb-32">
+      <img className="" src={divider} alt="Divider"></img>
       <div className="w-9/12 mx-auto">
         <motion.div
           initial="hidden"
