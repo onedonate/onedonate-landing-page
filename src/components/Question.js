@@ -1,5 +1,6 @@
 import React from "react";
 import Description from "./Description";
+import {motion, AnimatePresence } from "framer-motion";
 
 const Question = ({ question, answer }) => {
     const [showAnswers, setShowAnswers] = React.useState(false);
@@ -9,13 +10,36 @@ const Question = ({ question, answer }) => {
     <div className="border-b">
         <div className="flex justify-between gap-x-8 mx-auto cursor-pointer" onClick={onClick}>
             <h2 className="font-Montserrat font-semibold text-dark-gray text-lg text-left leading-normal mb-2 lg:text-2xl lg:mb-6">{question}</h2>
-            { showAnswers ? 
-                <h2 className="font-Montserrat text-brand-green text-4xl text-left leading-normal mb-2 p-2 lg:mb-6">-</h2> 
-                : <h2 className="font-Montserrat text-brand-green text-4xl text-left leading-normal mb-2 p-2 lg:mb-6">+</h2>
-            }
+            <div className="p-2">
+                <motion.h2 
+                    initial={{ rotate: 0 }}
+                    animate={{
+                    rotate: showAnswers ? -45 : 0,
+                    }}
+                    className="font-Montserrat text-brand-green text-4xl text-left leading-normal mb-2 p-2 lg:mb-6"
+                >+
+                </motion.h2>
+            </div>
+            
         </div>
         
-        { showAnswers ? <Description text={answer} /> : null }
+        <AnimatePresence initial={false}>
+            { showAnswers ? 
+                <motion.div 
+                    key="content"
+                    initial="collapsed"
+                    animate="open"
+                    exit="collapsed"
+                    variants={{
+                        open: { x: 0, opacity: 1, height: "auto" },
+                        collapsed: { x:-50, opacity: 0, height: 0 }
+                    }}
+                    transition={{ duration: 0.3, linear: 1}}
+                >
+                    <Description text={answer} />
+                </motion.div> : null }
+        </AnimatePresence>
+        
         
     </div>
   );
