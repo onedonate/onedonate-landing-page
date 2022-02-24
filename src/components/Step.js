@@ -8,7 +8,7 @@ const Step = ({ number, title, info, arrow }) => {
     <motion.div
       initial="hidden"
       whileInView="visible"
-      viewport={{ once: true }}
+      viewport={{ amount: 0.3 }}
       transition={{ duration: 1.0 }}
       variants={{
         visible: { y: 0, opacity: 1, scale: 1 },

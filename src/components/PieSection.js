@@ -11,7 +11,7 @@ const PieSection = () => {
         <motion.div
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true }}
+          viewport={{ amount: 0.7 }}
           transition={{ duration: 0.8 }}
           variants={{
             visible: { y: 0, opacity: 1, scale: 1 },

@@ -13,11 +13,11 @@ const AutomateSection = () => {
         <motion.div
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true }}
+          viewport={{ amount: 0.5 }}
           transition={{ duration: 0.8 }}
           variants={{
-            visible: { x: 0, opacity: 1, scale: 1 },
-            hidden: { x: 300, opacity: 0, scale: 0.9 },
+            visible: { x: 0, opacity: 1 },
+            hidden: { x: 50, opacity: 0 },
           }}
           className="flex flex-1 flex-col items-left lg:items-start"
         >
