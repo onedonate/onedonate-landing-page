@@ -9,8 +9,8 @@ const Question = ({ question, answer }) => {
   return (
     <div className="border-b">
         <div className="flex justify-between gap-x-8 mx-auto cursor-pointer" onClick={onClick}>
-            <h2 className="font-Montserrat font-semibold text-dark-gray text-lg text-left leading-normal mb-2 lg:text-2xl lg:mb-6">{question}</h2>
-            <div className="p-2">
+            <h2 className="font-Montserrat font-semibold text-dark-gray text-lg text-left leading-normal my-auto lg:text-2xl">{question}</h2>
+            <div className="p-2 my-auto">
                 <motion.h2 
                     initial={{ rotate: 0 }}
                     animate={{
