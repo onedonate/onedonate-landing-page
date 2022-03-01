@@ -1,10 +1,21 @@
 import React from "react";
 import Description from "./Description";
 import Arrow from "../images/arrow.svg";
+import { motion } from "framer-motion";
 
 const Step = ({ number, title, info, arrow }) => {
   return (
-    <div className="grid grid-cols-1 gap-2 mt-24 md:grid-cols-2 md:gap-12">
+    <motion.div
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ amount: 0.3 }}
+      transition={{ duration: 1.0 }}
+      variants={{
+        visible: { y: 0, opacity: 1, scale: 1 },
+        hidden: { y: 100, opacity: 0, scale: 0.5 },
+      }}
+      className="grid grid-cols-1 gap-2 mt-24 md:grid-cols-2 md:gap-12"
+    >
       <div className="text-left md:justify-end md:ml-auto md:w-4/6 md:text-right">
         <h3 className="text-brand-green font-bold uppercase text-lg">
           Step {number}
@@ -21,7 +32,7 @@ const Step = ({ number, title, info, arrow }) => {
           <img src={Arrow} alt="Arrow"></img>
         </div>
       ) : null}
-    </div>
+    </motion.div>
   );
 };
 

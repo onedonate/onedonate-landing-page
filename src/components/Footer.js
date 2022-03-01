@@ -22,7 +22,7 @@ const Footer = () => {
             alt="LinkedIn Link"
           />
           <SocialLink
-            link="https://twitter.com/one_donate"
+            link="https://twitter.com/onedonateapp"
             icon={twitter}
             alt="Twitter Link"
           />
