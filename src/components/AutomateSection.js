@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const AutomateSection = () => {
   return (
-    <section className="relative">
+    <section className="relative overflow-hidden">
       <img className="" src={divider} alt="Divider"></img>
       <div className="container flex flex-col lg:flex-row-reverse items-center mb-12 max-w-7xl lg:my-12">
         <motion.div
