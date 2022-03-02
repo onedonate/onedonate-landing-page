@@ -31,7 +31,7 @@ const FAQ = () => {
             <div className="w-full">
               <Question
                 question="What are the fees for donating?"
-                answer="1.9% of your donation goes towards Onedonate to enable us to continue to build new and innovate in the donation space. The platform fees will go towards covering hosting cost and cost to operate. 
+                answer="1.9% of your donation goes towards Onedonate to enable us to continue to build and innovate in the donation space. The platform fees will go towards covering hosting cost and cost to operate. 
             ~
             2% + 30¢ payment processing fee which goes towards our payment partner, Stripe.
             ~
