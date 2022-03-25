@@ -6,7 +6,7 @@ module.exports = {
     siteUrl: "https://www.onedonate.ca",
     title: `A centralized platform for giving`,
     author: `Onedonate`,
-    description: `One donate, multiple impacts`,
+    description: `One donation, multiple impacts`,
     social: {
       twitter: `onedonateapp`,
     },
