@@ -6,7 +6,7 @@ module.exports = {
     siteUrl: "https://www.onedonate.ca",
     title: `A centralized platform for giving`,
     author: `Onedonate`,
-    description: `One donation, multiple impacts`,
+    description: `Start donating with as little as $1 or donate your spare change from everyday purchases to thousands of charities. Join the community and start making an impact today.`,
     social: {
       twitter: `onedonateapp`,
     },
