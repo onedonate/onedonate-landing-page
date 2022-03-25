@@ -3,8 +3,8 @@ require("dotenv").config({
 });
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "onedonate-landing-page",
+    siteUrl: "https://www.onedonate.ca",
+    title: "Onedonate - A centralized platform for giving",
   },
   plugins: [
     "gatsby-plugin-image",
