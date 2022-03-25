@@ -4,7 +4,12 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.onedonate.ca",
-    title: "Onedonate - A centralized platform for giving",
+    title: `A centralized platform for giving`,
+    author: `Onedonate`,
+    description: `One donate, multiple impacts`,
+    social: {
+      twitter: `onedonateapp`,
+    },
   },
   plugins: [
     "gatsby-plugin-image",

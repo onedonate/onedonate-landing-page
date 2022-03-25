@@ -7,13 +7,17 @@ import AutomateSection from "../components/AutomateSection";
 import PieSection from "../components/PieSection";
 import FooterForm from "../components/FooterForm";
 import FAQ from "../components/FAQ";
+import SEO from "../components/SEO";
+import Logo from "../images/Logo.svg";
 
 const IndexPage = () => {
   return (
     <main className="font-Lato">
-      <Helmet>
-        <title>Onedonate - A centralized platform for giving</title>
-      </Helmet>
+      <SEO
+        title="Onedonate"
+        keywords={[`onedonate`, `donate`, `donation`, `charity`]}
+        image={Logo}
+      />
       <Header></Header>
       <LandingPage></LandingPage>
       <AutomateSection />
