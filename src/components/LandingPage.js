@@ -12,9 +12,9 @@ const LandingPage = () => {
           <div className="bg-brand-green font-bold text-white text-sm px-3 py-1 tracking-wide rounded-full mb-2 w-max truncate">
             COMING SOON
           </div>
-          <h2 className="font-Montserrat font-extrabold text-dark-gray text-4xl text-left leading-extra-loose mb-2 md:text-4 lg:text-7xl  lg:mb-6">
+          <h1 className="font-Montserrat font-extrabold text-dark-gray text-4xl text-left leading-extra-loose mb-2 md:text-4 lg:text-7xl  lg:mb-6">
             Donating <p className="text-brand-green">made simple</p>
-          </h2>
+          </h1>
 
           <Description text="Your chance to join Onedonate."></Description>
           <Description
