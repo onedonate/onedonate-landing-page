@@ -3,8 +3,13 @@ require("dotenv").config({
 });
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "onedonate-landing-page",
+    siteUrl: "https://www.onedonate.ca",
+    title: `A centralized platform for giving`,
+    author: `Onedonate`,
+    description: `Start donating with as little as $1 or donate your spare change from everyday purchases to thousands of charities. Join the community and start making an impact today.`,
+    social: {
+      twitter: `onedonateapp`,
+    },
   },
   plugins: [
     "gatsby-plugin-image",
@@ -43,13 +48,7 @@ module.exports = {
         // This object is used for configuration specific to this plugin
         pluginConfig: {
           // Puts tracking script in the head instead of the body
-          head: false,
-          // Setting this parameter is also optional
-          respectDNT: true,
-          // Avoids sending pageview hits from custom paths
-          exclude: ["/preview/**", "/do-not-track/me/too/"],
-          // Defaults to https://www.googletagmanager.com
-          origin: "YOUR_SELF_HOSTED_ORIGIN",
+          head: true,
         },
       },
     },
