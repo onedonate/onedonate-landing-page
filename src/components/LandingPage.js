@@ -7,7 +7,7 @@ import graphic from "../images/landing-graphic.webp";
 const LandingPage = () => {
   return (
     <section className="relative">
-      <div className="container flex flex-col lg:flex-row items-center max-w-7xl mt-12">
+      <div className="container flex flex-col lg:flex-row items-center max-w-7xl pt-28">
         <div className="flex flex-1 flex-col items-left lg:items-start">
           <div className="bg-brand-green font-bold text-white text-sm px-3 py-1 tracking-wide rounded-full mb-2 w-max truncate">
             COMING SOON

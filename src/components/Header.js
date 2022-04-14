@@ -1,12 +1,11 @@
 import React from "react";
 import logo from "../images/Logo.svg";
-import Button from "./Button";
 import { motion } from "framer-motion";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 const Header = () => {
   return (
-    <header>
+    <header className="fixed bg-white z-50 h-12 w-full md:h-20 md:shadow-md">
       <nav className="container flex justify-between items-center pt-1 pb-8 mt-1 max-w-7xl sm:mt-4">
         <motion.div
           initial="hidden"
@@ -23,6 +22,7 @@ const Header = () => {
             className="h-5 w-auto md:h-6"
             src={logo}
             alt="Onedonate logo"
+            onClick={scroll.scrollToTop}
           ></img>
         </motion.div>
         <ul className="flex items-center gap-4 md:gap-14">
