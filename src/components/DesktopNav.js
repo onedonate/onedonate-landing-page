@@ -28,6 +28,18 @@ const DesktopNav = () => {
         <ul className="flex items-center gap-4 md:gap-14">
           <Link
             activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={1000}
+          >
+            <li type="button" className="cursor-pointer">
+              About
+            </li>
+          </Link>
+          <Link
+            activeClass="active"
             to="features"
             spy={true}
             smooth={true}
