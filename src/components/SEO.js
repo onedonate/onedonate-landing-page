@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import { StaticQuery, graphql } from "gatsby";
+import favicon from "../images/favicon.ico";
 
 function SEO({ description, lang, image, meta, keywords, title, pathname }) {
   return (
@@ -97,7 +98,9 @@ function SEO({ description, lang, image, meta, keywords, title, pathname }) {
                   : []
               )
               .concat(meta)}
-          />
+          >
+            <link rel="icon" href={favicon} />
+          </Helmet>
         );
       }}
     />
