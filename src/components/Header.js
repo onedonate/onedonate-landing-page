@@ -6,7 +6,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 const Header = () => {
   return (
     <header className="fixed bg-white z-50 h-12 w-full md:h-20 md:shadow-md">
-      <nav className="container flex justify-between items-center pt-1 pb-8 mt-1 max-w-7xl sm:mt-4">
+      <nav className="container flex justify-between items-center pt-1 pb-8 mt-4 md:px-20">
         <motion.div
           initial="hidden"
           whileInView="visible"
@@ -19,7 +19,7 @@ const Header = () => {
           className="py-1"
         >
           <img
-            className="h-5 w-auto md:h-6"
+            className="h-5 w-auto cursor-pointer md:h-6"
             src={logo}
             alt="Onedonate logo"
             onClick={scroll.scrollToTop}
