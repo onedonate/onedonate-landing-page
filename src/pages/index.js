@@ -1,5 +1,4 @@
 import * as React from "react";
-import { Helmet } from "react-helmet";
 import Header from "../components/Header";
 import LandingPage from "../components/LandingPage";
 import Footer from "../components/Footer";
