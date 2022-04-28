@@ -5,7 +5,7 @@ import aboutImage from "../images/about_image.svg";
 
 const About = () => {
   return (
-    <section className="relative block bg-primary2 py-24 my-32 md:py-32" id="about">
+    <section className="relative block bg-primary2 py-24 mt-32 mb-12 md:py-32" id="about">
         <div className="flex items-center justify-center">
             <div className="w-3/4 flex flex-col items-center justify-center md:w-1/2">
                 <h2 className="text-white text-4xl text-center font-Montserrat font-extrabold mb-6 md:text-6xl">We strive to <span className="text-primary1 italic">simplify</span> the donation process.</h2>
