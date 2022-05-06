@@ -3,7 +3,7 @@ import Question from "./Question";
 
 const FAQ = () => {
   return (
-    <section className="relative">
+    <section className="relative" id="faq">
       <div className="container flex flex-1 flex-col items-left max-w-7xl mx-auto mt-12 md:mb-8 lg:items-start ">
         <h2 className="font-Montserrat font-extrabold text-dark-gray text-4xl text-left leading-extra-loose mb-8 md:text-4xl lg:text-5xl  lg:mb-12">
           FAQ.

@@ -7,13 +7,13 @@ import graphic from "../images/landing-graphic.webp";
 const LandingPage = () => {
   return (
     <section className="relative">
-      <div className="container flex flex-col lg:flex-row items-center max-w-7xl mt-12">
+      <div className="container flex flex-col lg:flex-row items-center max-w-7xl pt-40">
         <div className="flex flex-1 flex-col items-left lg:items-start">
-          <div className="bg-brand-green font-bold text-white text-sm px-3 py-1 tracking-wide rounded-full mb-2 w-max truncate">
+          <div className="bg-primary2 font-bold text-white text-sm px-3 py-1 tracking-wide rounded-full mb-2 w-max truncate">
             COMING SOON
           </div>
-          <h1 className="font-Montserrat font-extrabold text-dark-gray text-4xl text-left leading-extra-loose mb-2 md:text-4 lg:text-7xl  lg:mb-6">
-            Donating <p className="text-brand-green">made simple</p>
+          <h1 className="font-Montserrat font-extrabold text-primary1 text-4xl text-left leading-extra-loose mb-2 md:text-4 lg:text-7xl  lg:mb-6">
+            Donating <p className="italic">made simple</p>
           </h1>
 
           <Description text="Your chance to join Onedonate."></Description>
