@@ -9,9 +9,7 @@ const LandingPage = () => {
     <section className="relative">
       <div className="container flex flex-col lg:flex-row items-center max-w-7xl pt-40">
         <div className="flex flex-1 flex-col items-left lg:items-start">
-          <div className="bg-primary2 font-bold text-white text-sm px-3 py-1 tracking-wide rounded-full mb-2 w-max truncate">
-            COMING SOON
-          </div>
+          
           <h1 className="font-Montserrat font-extrabold text-primary1 text-4xl text-left leading-extra-loose mb-2 md:text-4 lg:text-7xl  lg:mb-6">
             Donating <p className="italic">made simple</p>
           </h1>
@@ -21,7 +19,7 @@ const LandingPage = () => {
             text="Start donating with as little as $1 or 
 donate your spare change from everyday purchases to thousands of charities. Join the community and start making an impact today."
           ></Description>
-          <Description text="Join hundreds of other Canadians on the waitlist."></Description>
+          <Description text="Sign up for our app newsletter to receive the latest updates, exclusive offers, and exciting news directly to your inbox."></Description>
           <MailchimpForm type="email"></MailchimpForm>
         </div>
 
