@@ -23,7 +23,7 @@ const MoreSection = () => {
             Plus more ways to track, share, and save
           </h2>
 
-          <Description text="Along with easily donating, the app is a central location to track your impact, share with your social media, and save important document such as donation tax receipts in one convenient app."></Description>
+          <Description text="The app makes donating effortless and serves as a centralized platform for tracking your impact, sharing on social media, and storing vital documents such as donation tax receipts."></Description>
           
         </motion.div>
 

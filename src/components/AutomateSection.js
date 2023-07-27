@@ -24,7 +24,7 @@ const AutomateSection = () => {
           </h2>
 
           <Description text="Link your bank account to the app, use your credit or debit card to make everyday purchases, and your spare change is magically donated to a cause you want to support!"></Description>
-          <Description text="Every purchase you make means an opportunity to give your spare change. So coffee for $2.75 becomes $0.25 donated to your favorite cause."></Description>
+          <Description text="Every purchase you make means an opportunity to give your spare change. So coffee for $2.75 becomes $0.25 donated to your favourite cause."></Description>
         </motion.div>
 
         <Graphic graphic={graphic} width="128"></Graphic>

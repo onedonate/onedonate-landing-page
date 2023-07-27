@@ -19,7 +19,7 @@ const LandingPage = () => {
             text="Start donating with as little as $1 or 
 donate your spare change from everyday purchases to thousands of charities. Join the community and start making an impact today."
           ></Description>
-          <Description text="Sign up for our app newsletter to receive the latest updates, exclusive offers, and exciting news directly to your inbox."></Description>
+          <Description text="Sign up for our newsletter to receive the latest updates, exclusive offers, and exciting news directly to your inbox."></Description>
           <MailchimpForm type="email"></MailchimpForm>
         </div>
 
