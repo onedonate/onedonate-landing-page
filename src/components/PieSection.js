@@ -2,6 +2,7 @@ import React from "react";
 import Step from "./Step";
 import { motion } from "framer-motion";
 import divider from "../images/divider2.png";
+import MoreSection from "../components/MoreSection";
 
 const PieSection = () => {
   return (
@@ -41,6 +42,7 @@ const PieSection = () => {
           info="Choose your donation amount and the amount will be automatically split to each charity based on your pie."
         />
       </div>
+      <MoreSection />
     </section>
   );
 };
