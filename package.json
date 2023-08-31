@@ -18,7 +18,7 @@
     "@tailwindcss/forms": "^0.3.4",
     "dotenv": "^8.6.0",
     "framer-motion": "^6.2.6",
-    "gatsby": "^4.10.3",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-google-gtag": "^4.10.0",
     "gatsby-plugin-image": "^2.10.1",
     "gatsby-plugin-mailchimp": "^5.2.2",
